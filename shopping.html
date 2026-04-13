@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <title>Ayoola Enterprises</title>
+    <title>Shopping Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,91 +21,25 @@
 
         <div class="right-header" id="nav-links">
             <ul>
-                <li><a href="#home-section">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#about-section">About us</a></li>
                 <li><a href="#contact-section">Contact us</a></li>
-                <li><a href="shopping.html">Shop with us</a></li>
-                <button id="signinBtn">Log in</button>
+                <li><a href="#shop-section">Shop with us</a></li>
+                <li id="signinBtn"><a href="#">Sign in
+                    </a></li>
             </ul>
         </div>
 
         <div id="loginForm">
-            <div class="loginForm-left">
-                <img src="./images/ad/WhatsApp Image 2026-04-09 at 9.54.26 PM (1).jpeg" alt="" class="logImg">
-
-            </div>
-            <div class="loginForm-right">
-                <form action="#" class="form">
-                    <div style="display: flex; justify-content: space-between; gap: 20px;" class="signLog">
-                        <p><a href="#" id="btnSignup">Sign Up</a></p>
-                        <p><a href="#" id="btnLogin">Log In</a></p>
-                    </div>
-
-                    <div class="login-container" id="loginContainer">
-                        <div style="display: flex; justify-content: space-between; gap: 10px; " class="logo-img"
-                            id="login-page">
-                            <a href=""><img src="./images/icons/facebook-logo.webp" alt="facebook-logo"></a>
-                            <a href=""><img src="./images/icons/apple.jpeg" alt="apple-logo"></a>
-                            <a href=""><img src="./images/icons/goggle-logo.png" alt="goggle-logo"></a>
-                            <a href=""><img src="./images/icons/in-logo.webp" alt=""></a>
-
-                        </div>
-
-                        <div>
-                            <p style="text-align: center;"> ____________ OR ______________</p>
-                        </div>
-
-                        <div class="form-container">
-                            <input type="text" placeholder="Username" required>
-                            <input type="password" placeholder="Password" required>
-
-                            <div
-                                style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                                <p>Forget password? <a href="#" class="log">Click here</a></p>
-                            </div>
-                            <button type="submit">Log In</button>
-
-                            <p>Don't have an account? <a href="" class="log" id="btnSignup">Sign up</a></p>
-                            <button type="button" id="closeLoginForm">Close</button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="signup-container" id="signupContainer">
-                        <div style="display: flex; justify-content: space-between; gap: 10px; " class="logo-img"
-                            id="login-page">
-                            <a href=""><img src="./images/icons/facebook-logo.webp" alt="facebook-logo"></a>
-                            <a href=""><img src="./images/icons/apple.jpeg" alt="apple-logo"></a>
-                            <a href=""><img src="./images/icons/goggle-logo.png" alt="goggle-logo"></a>
-                            <a href=""><img src="./images/icons/in-logo.webp" alt=""></a>
-
-                        </div>
-
-                        <div>
-                            <p style="text-align: center;"> ____________ OR ______________</p>
-                        </div>
-
-                        <div class="form-container">
-                            <input type="text" name="" id="" placeholder="Fullname" required>
-                            <input type="email" placeholder="Email" required>
-                            <input type="password" placeholder="Password" required>
-
-                            <!-- <div
-                                style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                                <p>Forget password? <a href="#" class="log">Click here</a></p>
-                            </div> -->
-                            <button type="submit">Sign up</button>
-
-                            <p>Already have an account? <a href="" class="log" id="btnLogin">Log In</a></p>
-                            <!-- <button type="button" id="closeLoginForm">Close</button> -->
-
-                        </div>
-
-                    </div>
-                </form>
-
-            </div>
+            <form action="#">
+                <h2>Sign in to your account</h2>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <p>Forget password? <a href="#" class="log">Click here</a></p>
+                <button type="submit">Sign In</button>
+                <p>Don't have an account? <a href="signup.html" class="log">Sign up</a></p>
+                <button type="button" id="closeLoginForm">Close</button>
+            </form>
         </div>
 
         <div class="checkout">
@@ -137,54 +69,7 @@
     </header>
 
     <main>
-        <section id="home-section">
-            <div class="hero-image">
-                <div class="hero-text">
-                    <h1>Welcome to Ayoola Enterprises</h1>
-                    <p>Discover premium abayas, niqabs, and accessories designed for
-                        confidence, comfort, and modest beauty.</p>
-                    <button><a href="shopping.html">Shop now</a></button>
-                </div>
-            </div>
-        </section>
-
-        <section class="products-section">
-            <div class="products-header">
-                <h1>Our Products</h1>
-                <p>Discover our premium collection of abayas, niqabs, and accessories designed for confidence,
-                    comfort, and modest beauty. Shop now to experience timeless elegance and style.</p>
-
-
-            </div>
-
-            <div class="products-container">
-                <div class="products">
-                    <div class="product-card">
-                        <img src="./images/Abaya.jpeg" alt="Elegant Abaya">
-                        <h2>Elegant Abaya</h2>
-                        <p>Experience timeless elegance with our premium abayas, designed for comfort and style.</p>
-                        <a href="#">View Details</a>
-                    </div>
-
-                    <div class="product-card">
-                        <img src="./images/sneaker2.jpeg" alt="Chic Niqab">
-                        <h2>Sneaker</h2>
-                        <p>Discover our stylish sneakers, perfect for adding a trendy touch to your modest wardrobe.</p>
-                        <a href="#">View Details</a>
-                    </div>
-
-                    <div class="product-card">
-                        <img src="./images/sneakers.jpeg" alt="Stylish Accessories">
-                        <h2>Stylish Accessories</h2>
-                        <p>Complete your look with our stylish accessories, designed to complement your modest fashion.
-                        </p>
-                        <a href="#">View Details</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="shop-section">
+        <section id="shop-section" class="shopping">
             <div class="shop-header">
                 <h1>Shop with Us</h1>
                 <p>Experience the convenience of shopping with Ayoola Enterprises. Our user-friendly online store
@@ -799,8 +684,6 @@
             </div>
         </section>
     </main>
-
-
     <footer>
         <div class="table-footer-group">
             <div class="table-footer">
@@ -851,6 +734,10 @@
 
     <script src="./script/script.js"></script>
 
+
+
+
 </body>
+
 
 </html>

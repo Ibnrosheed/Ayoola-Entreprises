@@ -21,11 +21,11 @@ const signinBtn = document.getElementById('signinBtn');
 signinBtn.addEventListener('click', function () {
     // alert('Sign in functionality is not implemented yet.');
     const loginForm = document.getElementById('loginForm');
-    if (loginForm.style.display === 'block') {
+    if (loginForm.style.display === 'flex') {
         loginForm.style.display = 'none';
     }
     else {
-        loginForm.style.display = 'block';
+        loginForm.style.display = 'flex';
     }
 }
 );
@@ -45,5 +45,27 @@ closeLoginForm.addEventListener('click', function () {
     loginForm.style.display = 'none';
 });
 
+// LOG IN AND SIGN UP BOTTUN
 
+const btnSignup = document.getElementById('btnSignup');
+const btnLogin = document.getElementById('btnLogin');
+const loginContainer = document.getElementById('loginContainer');
+const signupContainer = document.getElementById('signupContainer');
 
+btnSignup.addEventListener('click', function () {
+    if (signupContainer.style.display === 'block') {
+        signupContainer.style.display = 'none';
+    } else {
+        signupContainer.style.display = 'block';
+        loginContainer.style.display = 'none';
+    }
+});
+
+btnLogin.addEventListener('click', function () {
+    if (loginContainer.style.display === 'block') {
+        loginContainer.style.display = 'none';
+    } else {
+        loginContainer.style.display = 'block';
+        signupContainer.style.display = 'none';
+    }
+});

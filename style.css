@@ -106,6 +106,88 @@ header{
 }
 
 
+#signinBtn{
+    margin-top: -5px;
+    background-color: rgb(73, 73, 197);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+#signinBtn a{
+    color: white;
+    text-decoration: none;
+
+}
+#signinBtn:hover{
+    background-color: rgb(43, 43, 154);
+    transition: 0.5s;
+}
+
+
+
+.logo-btn{
+    /* margin-top: -5px; */
+    background-color: rgb(73, 73, 197);
+    padding: 10px 25px;
+    /* border-radius: 5px; */
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.logo-btn:hover{
+    background-color: rgb(43, 43, 154);
+    transition: 0.5s;
+}
+
+.signLog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signLog p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.signLog a{
+    color: Black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signLog a:hover{
+    /* border: 1px solid red; */
+    border-bottom: 5px solid rgb(43, 43, 154);
+    transition: 0.5s;
+}
+
+.signLog a:active{
+    border-bottom: 5px solid rgb(43, 43, 154);
+    transition: 0.5s;
+}
+/* 
+#signup-page{
+    display: flex;
+}
+
+#login-page{
+    display: none;
+    background-color: rgb(73, 73, 197);
+    width: 100%;
+    height: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
 
 /* The hero image */
 .hero-image {
@@ -137,37 +219,21 @@ header{
     margin-bottom: 20px;
 }
 
-button{
-    padding: 20px 40px;
-    background-color: rgb(73, 73, 197);
-    color: white;
-    border: none;
-    margin-top: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* button:hover{
-    background-color: rgb(43, 43, 154);
-    transition: 0.5s;
-}
-
-.hero-text p{
-    font-size: 25px;
-} */
 
 .hero-text button{
     padding: 20px 40px;
     background-color: rgb(73, 73, 197);
-    color: white;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+}
+.hero-text button a{
+    color: white;
+    text-decoration: none;
+
 }
 .hero-text button:hover{
     background-color: rgb(43, 43, 154);
@@ -835,7 +901,7 @@ footer{
     transition: color 0.3s ease;
 }
 
-input[type="email"]{
+.newsletter-form input[type="email"]{
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -844,7 +910,7 @@ input[type="email"]{
     width: 350px;
 }
 
-button{
+.newsletter-form button{
     padding: 10px 20px;
     background-color: rgb(73, 73, 197);
     color: white;
@@ -856,7 +922,7 @@ button{
     font-weight: bold;
 }
 
-button:hover{
+.newsletter-form button:hover {
     background-color: rgb(38, 38, 173);
     transition: 0.5s;
 }
@@ -1106,34 +1172,183 @@ button:hover{
 /* Login Form Styles */
 #loginForm {
     display: none;
+    width: 50%;
+    height: 500px;
+    /* display: flex; */
+    /* display: ; */
+    justify-content: space-between;
     position: fixed;
-    top: 40%;
-    right: 1%;
+    top: 50%;
+    right: -15%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #fdfdfd;
+    border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-#loginForm form {
+
+.loginForm-left{
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+    display: block;
+}
+
+.logImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.loginForm-right{
+    /* background-color: gray; */
+    width: 60%;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: 20px;
+}
+
+.loginForm-right form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     width: 300px;
+    /* background-color: blue; */
 }   
-#loginForm h2 {
+.loginForm-right h2 {
     margin-bottom: 10px;
     color: #333;
 }
-#loginForm input {
+
+.form-container{
+    margin-bottom: 40px;
+}
+
+.form-container input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    margin: 10px;
 }
-#loginForm button {
+.form-container button {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(73, 73, 197);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginForm-right button:hover {
+    background-color: rgb(38, 38, 173);
+    transition: 0.5s;
+}
+.loginForm-right form p {
+    font-size: 20px;
+}
+.log{
+    text-decoration: none;
+    color: #013d62;
+    font-size: 20px;
+    font-weight: bold;
+}
+.log:hover{
+    color: rgb(38, 38, 173);
+    transition: 0.5s;
+}
+
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align: center;
+}
+
+.logo-img img{
+    width: 60px;
+    padding: 10px;
+}
+
+
+#login-container{
+    padding: 20px;
+    display:none;
+}
+
+#signup-container{
+    display:none;
+}
+
+
+
+
+
+
+/* For Shopping Section */
+.shopping{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Signup page Styles */
+/* #signup{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 20px;
+    height: 700px;
+}
+
+.signup-container{
+    border: 2px solid blue;
+    background-color: yellow;
+    padding: 10px 15px;
+    width: 700px;
+    height: auto;
+}
+
+.signup-container form {
+    display: inline;
+    gap: 15px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.form-content{
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.form-content label, input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-button: 10px;
+}
+.form-content input
+  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 100px:
+}
+.signup-container form button {
     width: 100%;
     padding: 10px;
     background-color: rgb(73, 73, 197);
@@ -1144,7 +1359,7 @@ button:hover{
     font-weight: bold;
     cursor: pointer;
 }
-#loginForm button:hover {
+.signup-container button:hover {
     background-color: rgb(38, 38, 173);
     transition: 0.5s;
 }
@@ -1160,5 +1375,4 @@ form p {
 .log:hover{
     color: rgb(38, 38, 173);
     transition: 0.5s;
-}
-
+} */

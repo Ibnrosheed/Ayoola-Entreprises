@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="left-header">
+            <img src="./images/logo.png" alt="Ayoola Enterprises Logo">
+        </div>
+
+        <div class="center-header">
+            <h1>AYOOLA ENTERPRISES</h1>
+        </div>
+
+
+        <div class="right-header" id="nav-links">
+            <ul>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-section">About us</a></li>
+                <li><a href="#contact-section">Contact us</a></li>
+                <li><a href="shopping.html">Shop with us</a></li>
+                <li id="signinBtn"><a href="#">Sign in
+                    </a></li>
+            </ul>
+        </div>
+
+        <div id="loginForm">
+            <form action="#">
+                <h2>Sign in to your account</h2>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <p>Forget password? <a href="#" class="log">Click here</a></p>
+                <button type="submit">Sign In</button>
+                <p>Don't have an account? <a href="#" class="log">Sign up</a></p>
+                <button type="button" id="closeLoginForm">Close</button>
+            </form>
+        </div>
+
+        <div class="checkout">
+            <a class="cart-link" href="checkout.html">
+                <img class="cart-icon" src="./images/icons/cart-icon.png" alt="Cart Icon">
+                <div class="cart-quantity js-cart-quantity">0</div>
+                <div class="cart-text">Cart</div>
+            </a>
+        </div>
+
+        <button class="menu-button" id="dropdownBtn">
+
+            <img src="images/icons/bars-solid-full.svg" alt="" style="width: 40px; height: 40px;">
+
+            <div class="dropdownMenu" id="dropdownMenu">
+                <ul style="list-style: none;">
+                    <li><a href="#">Home</a></li>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#"> Contact Us</a></li>
+                    <li><a href="#shop-section"> Shop with us</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </div>
+        </button>
+
+    </header>
+
+    <main>
+
+        <section id="signup">
+            <div class="signup-container">
+                <h1 style="text-align: center;">Sign up as new customer</h1>
+                <form action="#">
+                    <div class="form-content">
+                        <label for="fname">Firstname: </label>
+                        <input type="text" placeholder="Enter your first name:" required>
+                    </div>
+
+                    <div class="form-content">
+                        <label for="lname">Lastname: </label>
+                        <input type="text" placeholder="Enter your last name:" required>
+                        <label for="email">Email: </label>
+                    </div>
+
+                    <div class="form-content">
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        <label for="password">Password</label>
+                    </div>
+
+                    <div class="form-content">
+                        <input type="password" name="" id="password" placeholder="Enter your secret password" required>
+
+                    </div>
+
+                    <div class="form-content">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" name="" id="password" placeholder="Confirm your secret password"
+                            required>
+                    </div>
+
+
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="table-footer-group">
+            <div class="table-footer">
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <p><a href="#">Shipping & Returns</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms of Service</a></p>
+
+                </div>
+
+                <div class=" footer-column">
+                    <h3>Follow Us</h3>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">Instagram</a></p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="footer-bottom">
+            <p> &copy; 2024 Ayoola Enterprises. All rights reserved.</p>
+
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
