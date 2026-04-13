@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Ayoola Enterprises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="left-header">
+            <img src="./images/logo.png" alt="Ayoola Enterprises Logo">
+        </div>
+
+        <div class="center-header">
+            <h1>AYOOLA ENTERPRISES</h1>
+        </div>
+
+
+        <div class="right-header" id="nav-links">
+            <ul>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-section">About us</a></li>
+                <li><a href="#contact-section">Contact us</a></li>
+                <li><a href="#shop-section">Shop with us</a></li>
+                <li><a href="#">Sign in
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="checkout">
+            <a class="cart-link" href="checkout.html">
+                <img class="cart-icon" src="./images/icons/cart-icon.png" alt="Cart Icon">
+                <div class="cart-quantity js-cart-quantity">0</div>
+                <div class="cart-text">Cart</div>
+            </a>
+        </div>
+
+        <button class="menu-button" id="dropdownBtn">
+
+            <img src="images/icons/bars-solid-full.svg" alt="" style="width: 40px; height: 40px;">
+
+            <div class="dropdownMenu" id="dropdownMenu">
+                <ul style="list-style: none;">
+                    <li><a href="#">Home</a></li>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#"> Contact Us</a></li>
+                    <li><a href="#shop-section"> Shop with us</a></li>
+                </ul>
+            </div>
+        </button>
+
+    </header>
+
+    <main>
+        <section id="home-section">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Welcome to Ayoola Enterprises</h1>
+                    <p>Discover premium abayas, niqabs, and accessories designed for
+                        confidence, comfort, and modest beauty.</p>
+                    <button>Shop now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="products-header">
+                <h1>Our Products</h1>
+                <p>Discover our premium collection of abayas, niqabs, and accessories designed for confidence,
+                    comfort, and modest beauty. Shop now to experience timeless elegance and style.</p>
+
+
+            </div>
+
+            <div class="products-container">
+                <div class="products">
+                    <div class="product-card">
+                        <img src="./images/Abaya.jpeg" alt="Elegant Abaya">
+                        <h2>Elegant Abaya</h2>
+                        <p>Experience timeless elegance with our premium abayas, designed for comfort and style.</p>
+                        <a href="#">View Details</a>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="./images/sneaker2.jpeg" alt="Chic Niqab">
+                        <h2>Sneaker</h2>
+                        <p>Discover our stylish sneakers, perfect for adding a trendy touch to your modest wardrobe.</p>
+                        <a href="#">View Details</a>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="./images/sneakers.jpeg" alt="Stylish Accessories">
+                        <h2>Stylish Accessories</h2>
+                        <p>Complete your look with our stylish accessories, designed to complement your modest fashion.
+                        </p>
+                        <a href="#">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop-section">
+            <div class="shop-header">
+                <h1>Shop with Us</h1>
+                <p>Experience the convenience of shopping with Ayoola Enterprises. Our user-friendly online store
+                    offers a seamless shopping experience, secure payment options, and fast shipping. Explore our
+                    collection of premium abayas, niqabs, and accessories, and enjoy exceptional customer service every
+                    step of the way.</p>
+            </div>
+            <div class="shop-container">
+                <div class="shop-product-list">
+                    <h2 class="shop-product-header"><strong>Abayas:</strong> Elegant, flowing designs made from premium
+                        fabrics, perfect for everyday wear and special occasions.</h2>
+
+                    <div class="shop-products-container">
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya.jpeg" alt="Product 1">
+                            <h3>Saudi</h3>
+                            <p>#59,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="1">Add to Cart</button>
+
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+                            </div>
+
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya2.jpeg" alt="Product 2">
+                            <h3>Egypt</h3>
+                            <p>#49,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="2">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya3.jpeg" alt="Product 3">
+                            <h3>Lebanon</h3>
+                            <p>#39,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="3">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya4.jpeg" alt="Product 4">
+                            <h3>Saudi</h3>
+                            <p>#59,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="4">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,500</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya5.jpeg" alt="Product 5">
+                            <h3>Iraqi</h3>
+                            <p>#33,249.99</p>
+                            <button class="add-to-cart-button" data-product-id="5">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya6.jpeg" alt="Product 6">
+                            <h3>Oman</h3>
+                            <p>#19,099.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya7.jpeg" alt="Product 7">
+                            <h3>Kuwait</h3>
+                            <p>#59,099.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,400</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/abaya/Abaya8.jpeg" alt="Product 8">
+                            <h3>Infinix</h3>
+                            <p>#19,099.99</p>
+                            <button class="add-to-cart-button" data-product-id="8">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#1,500</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="shop-product-list">
+                    <h2 class="shop-product-header"><strong>Niqabs:</strong> Comfortable, breathable, and beautifully
+                        tailored for modest coverage.</h2>
+
+                    <div class="shop-products-container">
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab1.jpeg" alt="Product 1">
+                            <p>#3,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="1">Add to Cart</button>
+
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab2.jpeg" alt="Product 2">
+                            <p>#6,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="2">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab3.jpeg" alt="Product 3">
+                            <p>#12,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="3">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab4.jpeg" alt="Product 4">
+                            <p>#9,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="4">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab5.jpeg" alt="Product 5">
+                            <p>#2,499.99</p>
+                            <button class="add-to-cart-button" data-product-id="5">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab6.jpeg" alt="Product 6">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab7.jpeg" alt="Product 7">
+                            <p>#199.99</p>
+                            <button class="add-to-cart-button" data-product-id="7">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#200</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/niqabs/niqab8.jpeg" alt="Product 8">
+                            <p>#199.99</p>
+                            <button class="add-to-cart-button" data-product-id="8">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#200</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="shop-product-list">
+                    <h2 class="shop-product-header"><strong>Sneakers:</strong> Trendy and comfortable footwear to
+                        complement
+                        your outfits.</h2>
+
+                    <div class="shop-products-container">
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneakers1.jpeg" alt="Product 1">
+                            <p>#9,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="1">Add to Cart</button>
+
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneaker2.jpeg" alt="Product 2">
+                            <p>#6,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="2">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneakers3.jpeg" alt="Product 3">
+                            <p>#12,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="3">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneaker4.jpeg" alt="Product 4">
+                            <p>#9,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="4">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000 </p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneaker5.jpeg" alt="Product 5">
+                            <p>#2,499.99</p>
+                            <button class="add-to-cart-button" data-product-id="5">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneaker6.jpeg" alt="Product 6">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000 </p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneakers7.jpeg" alt="Product 7">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="7">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/sneakers/sneaker8.jpeg" alt="Product 8">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="8">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="shop-product-list">
+                    <h2 class="shop-product-header"><strong>Socks & Gloves:</strong> Soft, durable, and essential
+                        accessories
+                        for modest dressing.</h2>
+
+                    <div class="shop-products-container">
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/sock1.jpeg" alt="Product 1">
+                            <p>#9,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="1">Add to Cart</button>
+
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/socks2.jpeg" alt="Product 2">
+                            <p>#6,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="2">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/socks3.jpeg" alt="Product 3">
+                            <p>#12,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="3">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/sock4.jpeg" alt="Product 4">
+                            <p>#9,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="4">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/socks5.jpeg" alt="Product 5">
+                            <p>#2,499.99</p>
+                            <button class="add-to-cart-button" data-product-id="5">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/socks6.jpeg" alt="Product 6">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/socks7.jpeg" alt="Product 7">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="7">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+
+                        <div class="shop-product-card">
+                            <img src="./images/products/socks & gloves/sock8.jpeg" alt="Product 8">
+                            <p>#1,999.99</p>
+                            <button class="add-to-cart-button" data-product-id="8">Add to Cart</button>
+                            <div class="hot-deal">
+                                <p>-#2,000</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+                <!-- <div class="product-list">
+                    <h2 class="product-header">Appliances</h2>
+                    <div class="products-container">
+                        <div class="product-card">
+                            <img src="/images/kitchen/home-app1.jpg" alt="Product 1">
+                            <h3>Dell</h3>
+                            <p>$999.99</p>
+                            <button class="add-to-cart-button" data-product-id="1">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/kitchen/home-app2.jpg" alt="Product 2">
+                            <h3>HP</h3>
+                            <p>$699.99</p>
+                            <button class="add-to-cart-button" data-product-id="2">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/kitchen/home-app3.jpg" alt="Product 3">
+                            <h3>MacBook Pro</h3>
+                            <p>$1299.99</p>
+                            <button class="add-to-cart-button" data-product-id="3">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/kitchen/home-app1.jpg" alt="Product 4">
+                            <h3>Lenovo</h3>
+                            <p>$999.99</p>
+                            <button class="add-to-cart-button" data-product-id="4">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/kitchen/home-app2.jpg" alt="Product 5">
+                            <h3>Techno</h3>
+                            <p>$249.99</p>
+                            <button class="add-to-cart-button" data-product-id="5">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/kitchen/home-app3.jpg" alt="Product 6">
+                            <h3>Infinix</h3>
+                            <p>$199.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="product-list">
+                    <h2 class="product-header">Gaming</h2>
+                    <div class="products-container">
+                        <div class="product-card">
+                            <img src="/images/game/game1.jpg" alt="Product 1">
+                            <h3>Dell</h3>
+                            <p>$999.99</p>
+                            <button class="add-to-cart-button" data-product-id="1">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/game/game2.jpg" alt="Product 2">
+                            <h3>HP</h3>
+                            <p>$699.99</p>
+                            <button class="add-to-cart-button" data-product-id="2">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/game/game3.jpg" alt="Product 3">
+                            <h3>MacBook Pro</h3>
+                            <p>$1299.99</p>
+                            <button class="add-to-cart-button" data-product-id="3">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/game/game4.jpg" alt="Product 4">
+                            <h3>Lenovo</h3>
+                            <p>$999.99</p>
+                            <button class="add-to-cart-button" data-product-id="4">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/game/game5.jpg" alt="Product 5">
+                            <h3>Techno</h3>
+                            <p>$249.99</p>
+                            <button class="add-to-cart-button" data-product-id="5">Add to Cart</button>
+                        </div>
+
+                        <div class="product-card">
+                            <img src="/images/game/game7.jpg" alt="Product 6">
+                            <h3>Infinix</h3>
+                            <p>$199.99</p>
+                            <button class="add-to-cart-button" data-product-id="6">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+                </div> -->
+
+            </div>
+        </section>
+
+        <section id="about-section">
+            <div class="content">
+                <div class="top">
+                    <div class="text">
+                        <h1>About Us</h1>
+                        <p>Ayoola Enterprises is a leading provider of premium abayas, niqabs, and accessories. We
+                            are
+                            committed to offering high-quality products that combine elegance, comfort, and modesty.
+                            Our
+                            mission is to empower individuals to express their unique style while embracing their
+                            cultural
+                            values. With a focus on craftsmanship and customer satisfaction, we strive to be the
+                            go-to
+                            destination for those seeking timeless fashion with a modern twist.</p>
+
+                        <div class="content-class">
+                            <h3>Our Story</h3>
+                            <p style="text-align: left;">Founded in 2020, Ayoola Enterprises was born out of a
+                                passion
+                                for
+                                fashion and a desire to
+                                provide stylish, high-quality modest wear. Our founder, Ayoola, recognized the need
+                                for
+                                fashionable options that cater to the diverse tastes of individuals who value
+                                modesty.
+                                With
+                                a
+                                background in fashion design and a commitment to excellence, Ayoola set out to
+                                create a
+                                brand
+                                that would redefine modest fashion and inspire confidence in every customer.</p>
+                        </div>
+
+                    </div>
+                    <div class="content-container">
+                        <div class="content-class">
+                            <h3>Our Values</h3>
+                            <p style="text-align: left;">We are committed to providing exceptional quality,
+                                sustainable
+                                practices, and outstanding
+                                customer
+                                service. At Ayoola Enterprises, we believe in empowering individuals to embrace
+                                their
+                                cultural
+                                identity while expressing their unique style.</p>
+
+                        </div>
+
+                        <div class="content-class">
+                            <h3>Our Mission</h3>
+                            <p style="text-align: left;">Our mission is to provide high-quality, stylish modest wear
+                                that
+                                empowers individuals to
+                                express
+                                their unique identity while maintaining their cultural values.</p>
+                        </div>
+
+                        <div class="content-class">
+                            <h3>Our Vision</h3>
+                            <p style="text-align: left;">Our vision is to be the leading brand in modest fashion,
+                                recognized
+                                for our commitment to
+                                quality,
+                                sustainability, and cultural appreciation.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="img">
+                <img src="./images/WhatsApp Image 2026-04-09 at 9.54.26 PM (1).jpeg" alt="About Us Image">
+
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <div class="img">
+                <img src="./images/WhatsApp Image 2026-04-09 at 9.54.26 PM.jpeg" alt=""
+                    style="width: 100%; height: auto;">
+            </div>
+
+            <div class="content">
+                <div class="top">
+                    <h1>Contact Us</h1>
+                    <p class="text">Have questions or need assistance? Our dedicated customer service team is here to
+                        help. Whether you have inquiries about our products, need help with your order, or want to
+                        provide feedback, we are committed to providing exceptional support. Please feel free to reach
+                        out to us through any of the following channels:</p>
+                </div>
+                <div class="about-container">
+                    <div class="about-class">
+                        <img src="./images/icons/email-loo.png" alt="Email Icon">
+                        <p><strong>Email:</strong> ayoolaenterprises@gmail.com</p>
+
+                    </div>
+
+                    <div class="about-class">
+                        <img src="./images/icons/phone.webp" alt="Phone Icon">
+                        <p><strong>Phone:</strong> +234 816 832 5982</p>
+
+                    </div>
+
+                    <div class="about-class">
+                        <img src="./images/icons/Logo-WhatsApp.png" alt="WhatsApp Icon">
+                        <p><strong>WhatsApp:</strong> +234 816 832 5982</p>
+
+
+                    </div>
+
+                    <div class="about-class">
+                        <img src="./images/icons/istagram.webp" alt="Instagram Icon">
+                        <p><strong>Instagram:</strong> @ayoolaenterprises</p>
+
+                    </div>
+                    <div class="about-class">
+                        <img src="./images/icons/address.webp" alt="Address Icon">
+                        <p><strong>Address:</strong> Plot 24, 1st Avenue, Orere Abosan Estate, Awesu Area, Igbogbo
+                            Local Government, Ikorodu, Lagos State, Nigeria.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="table-footer-group">
+            <div class="table-footer">
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <p><a href="#">Shipping & Returns</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms of Service</a></p>
+
+                </div>
+
+                <div class=" footer-column">
+                    <h3>Follow Us</h3>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">Instagram</a></p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="footer-bottom">
+            <p> &copy; 2024 Ayoola Enterprises. All rights reserved.</p>
+
+        </div>
+
+
+    </footer>
+
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>
