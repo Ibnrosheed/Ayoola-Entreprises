@@ -1045,3 +1045,60 @@ button:hover{
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 1500px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .right-header ul, .center-header{
+        display: none;
+    }
+
+    .home-section{ 
+        width: 1000%;
+        height: auto;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+    .checkout{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-button{
+        display: block;
+    }
+    .cart-link{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .cart-text{
+        font-size: 15px;
+    }
+    .cart-quantity {
+          font-size: 20px;
+          width: 20px;
+          left: 22px;
+     }
+    .hero-text h1{
+        font-size: 30px;
+        margin-top: 350px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hero-text p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero-text button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    
+}
